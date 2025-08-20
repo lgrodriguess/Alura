@@ -13,3 +13,4 @@ while(contador < qtdNumeros){
 let media = soma / qtdNumeros;
 
 console.log(media);
+//------------------------------------------------------------------------------
