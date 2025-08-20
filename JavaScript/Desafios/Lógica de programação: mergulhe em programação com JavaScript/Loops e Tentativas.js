@@ -34,9 +34,20 @@ while(contador >= 0){
 
 //3 - Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
 alert('Vamos realizar uma contagem regressiva.');
-let quantidade = prompt('Digite o numero de inicio!')
+let quantidade = prompt('Digite o número de inicio!')
 
 while(quantidade >= 0){
     alert(quantidade);
     quantidade--;
 }
+
+//4 - Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+alert('Vamos realizar uma contagem progressiva.');
+let quantidade = prompt('Digite até o número que deseja contar!')
+let contador = 0;
+
+while(contador <= quantidade){
+    alert(contador);
+    contador++;
+}
+
