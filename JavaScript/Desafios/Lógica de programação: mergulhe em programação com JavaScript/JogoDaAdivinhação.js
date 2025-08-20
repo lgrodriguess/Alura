@@ -1,3 +1,4 @@
+//Em progresso...
 alert('Boas vindas ao jogo do número secreto');
 let numeroSecreto = 9;
 console.log(numeroSecreto);
