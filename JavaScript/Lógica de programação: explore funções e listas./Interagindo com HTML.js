@@ -22,6 +22,8 @@ function verificarPrompt(){
 
 // 6 - Ao clicar no botão soma, peça 2 números inteiros e exiba o resultado da soma em um alerta.
 function botaoSoma(){
-    let num1 = prompt('Digite o primeiro numero inteiro para a soma');
-    let num2 = prompt('Digite o segundo numero inteiro');
-    
+    let num1 = parseInt(prompt('Digite o primeiro numero inteiro para a soma'));
+    let num2 = parseInt(prompt('Digite o segundo numero inteiro'));
+    let soma = parseInt(num1 + num2);
+    alert(soma);
+}
